@@ -108,3 +108,54 @@
         failure css end
 =================================== */
 
+
+/* ===================================
+        plan css start
+=================================== */
+
+.plan {
+    margin-bottom: 120px;
+}
+
+.my-plan-header {
+    text-align: center;
+}
+
+.plan-header-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.my-plans-wrapper {
+    display: flex;
+    /* gap: 24px; */
+    justify-content: space-between;
+}
+
+.my-plans-item {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.plan-sub-title {
+    font-size: 25px;
+    font-size: 400;
+    color: #737272;
+}
+
+
+/* ===================================
+        plan css end
+=================================== */
+
