@@ -1,4 +1,68 @@
+/* ===================================
+        Common css start
+=================================== */
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ===================================
+        Common css end
+=================================== */
+
+/* ===================================
+        banner css start
+=================================== */
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 215px;
+    padding-bottom: 165px;
+}
+
+.banner-content {
+    text-align: right;
+}
+
+.banner-content .banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 470px;
+    margin-bottom: 24px;
+}
+
+.banner-content .banner-description {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    padding-left: 675px;
+    margin-bottom: 45px;
+}
+
+.banner-content .btn-primary {
+    padding: 20px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* ===================================
+        banner css end
+=================================== */
+
