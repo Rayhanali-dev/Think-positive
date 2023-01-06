@@ -59,10 +59,52 @@
 }
 
 
-
+/* ===================================
+        banner css end
+=================================== */
 
 
 /* ===================================
-        banner css end
+        failure css start
+=================================== */
+
+.failures {
+    padding: 130px 0;
+}
+
+.failures-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.failure-right {
+    margin-top: 120px;
+}
+
+.failure-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-right: 64px;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+    padding-right: 100px;
+}
+
+.failure-list {
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+
+/* ===================================
+        failure css end
 =================================== */
 
