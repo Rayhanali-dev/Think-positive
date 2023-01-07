@@ -12,8 +12,51 @@
     margin: 0 auto;
 }
 
+ul, ol {
+    list-style: none;
+}
+
 /* ===================================
         Common css end
+=================================== */
+
+
+/* ===================================
+        navbar css end
+=================================== */
+
+.navbar {
+    background-color: #014A97;
+    padding: 20px 0;
+}
+
+.nav-logo-title {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* ===================================
+        navbar css end
 =================================== */
 
 /* ===================================
