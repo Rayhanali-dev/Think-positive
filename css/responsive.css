@@ -1,0 +1,154 @@
+/* extra small device start */
+
+@media screen and (max-width: 575.98px) {
+    
+    /* ===================================
+        navbar css start
+    =================================== */
+
+    .navbar {
+        background-color: #014A97;
+        padding: 20px 0;
+    }
+
+    .nav-logo-title {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .navbar-wrapper {
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    /* ===================================
+            navbar css end
+    =================================== */
+
+
+    /* ===================================
+            banner css start
+    =================================== */
+
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content .banner-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        padding-left: 0;
+        margin-bottom: 24px;
+    }
+    
+    .banner-content .banner-description {
+        font-size: 16px;
+        color: #fff;
+        line-height: 26px;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+    
+    .banner-content .btn-primary {
+        padding: 20px 25px;
+        color: #005FAC;
+        font-size: 20px;
+        background-color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    
+
+
+    /* ===================================
+            banner css end
+    =================================== */
+
+
+    /* ===================================
+            failures css end
+    =================================== */
+
+    .failures-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 87px;
+        flex-direction: column;
+    }
+
+
+
+    /* ===================================
+            failures css end
+    =================================== */
+
+
+    /* ===================================
+            design thinking css start
+    =================================== */
+
+    .design-thinking-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    /* ===================================
+            design thinking css end
+    =================================== */
+
+
+    /* ===================================
+            my plan css start
+    =================================== */
+
+    .my-plans-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    /* ===================================
+            my plan css end
+    =================================== */
+
+
+    /* ===================================
+            footer css start
+    =================================== */
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ===================================
+            footer css end
+    =================================== */
+
+
+
+
+
+
+    
+
+
+
+}
+
+
+/* extra small device end */

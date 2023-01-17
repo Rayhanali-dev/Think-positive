@@ -22,7 +22,7 @@ ul, ol {
 
 
 /* ===================================
-        navbar css end
+        navbar css start
 =================================== */
 
 .navbar {
@@ -119,8 +119,13 @@ ul, ol {
     gap: 87px;
 }
 
+.failure-left {
+    width: 50%;
+}
+
 .failure-right {
     margin-top: 120px;
+    width: 50%;
 }
 
 .failure-title {
@@ -181,6 +186,7 @@ ul, ol {
 .design-thinking-item {
     text-align: center;
     padding: 10px;
+    width: 300px;
 }
 
 .design-title {
@@ -226,6 +232,7 @@ ul, ol {
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
+    width: 300px;
 }
 
 .plan-title {
@@ -299,6 +306,15 @@ ul, ol {
 
 .footer-wrapper {
     display: flex;
+    gap: 130px;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    width: 50%;
 }
 
 .footer-heading {
@@ -315,7 +331,6 @@ ul, ol {
     font-size: 16px;
     color: #fff;
     line-height: 26px;
-    padding-right: 540px;
     margin-bottom: 24px;
 }
 
