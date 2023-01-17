@@ -1,3 +1,402 @@
+/* medium device start */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* ===================================
+        navbar css start
+    =================================== */
+    
+    .navbar-wrapper {
+        padding: 0 20px;
+    }
+
+    /* ===================================
+            navbar css end
+    =================================== */
+
+    /* ===================================
+            banner css start
+    =================================== */
+
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .banner-content {
+        text-align: right;
+        padding: 0 20px;
+    }
+
+    .banner-content .banner-title {
+        padding-left: 283px;
+    }
+    
+    .banner-content .banner-description {
+        padding-left: 191px;
+    }
+    
+
+    /* ===================================
+            banner css end
+    =================================== */
+
+
+    /* ===================================
+            failures css end
+    =================================== */
+
+    .failures {
+        padding: 60px 0;
+    }
+
+    .failures-wrapper {
+        gap: 24px;
+        padding: 0 20px;
+    }
+
+    .failure-left {
+        width: 50%;
+    }
+
+    .failure-left img {
+        width: 100%;
+    }
+
+    .failure-right {
+        width: 50%;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    .failure-title {
+        font-size: 40px;
+        padding-right: 0;
+    }
+
+    .failure-description {
+        padding-right: 0;
+    }
+
+    /* ===================================
+            failures css end
+    =================================== */
+
+    /* ===================================
+            my plan css start
+    =================================== */
+
+    .plan-title {
+        font-size: 21px;
+    }
+    
+    .plan-sub-title {
+        font-size: 19px;
+    }
+
+    /* ===================================
+            my plan css end
+    =================================== */
+
+    /* ===================================
+            positive mind css start
+    =================================== */
+
+    .positive-mindset {
+        padding: 0 20px;
+    }
+
+    .positive-mindset-title {
+        padding-right: 230px;
+        font-size: 40px;
+    }
+
+    /* ===================================
+            positive mind css end
+    =================================== */
+
+    /* ===================================
+            footer css start
+    =================================== */
+    .footer-wrapper {
+        padding: 0 20px;
+        gap: 40px;
+    }
+
+    /* ===================================
+            footer css end
+    =================================== */
+
+
+
+
+
+
+
+
+}
+
+
+
+/* medium device end */
+
+/* small device start */
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* ===================================
+        navbar css start
+    =================================== */
+
+    .navbar {
+        background-color: #014A97;
+        padding: 20px 0;
+    }
+
+    .nav-logo-title {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .navbar-wrapper {
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .bars {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .bars span {
+        width: 40px;
+        background-color: #fff;
+        height: 5px;
+        border-radius: 10px;
+    }
+
+    .nav-main-menu {
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: -20px;
+        padding: 20px;
+        opacity: 0;
+        transition: all linear .3s;
+        visibility: hidden;
+    }
+
+    .nav-main-menu .nav-link {
+        color: #000;
+    }
+
+    .bars:hover .nav-main-menu {
+        opacity: 1;
+        right: 0;
+        visibility: visible;
+    }
+
+    /* ===================================
+            navbar css end
+    =================================== */
+
+    /* ===================================
+            banner css start
+    =================================== */
+
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .banner-content {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .banner-content .banner-title {
+        font-size: 45px;
+        font-weight: 700;
+        color: #fff;
+        padding-left: 0;
+        margin-bottom: 24px;
+    }
+    
+    .banner-content .banner-description {
+        font-size: 16px;
+        color: #fff;
+        line-height: 26px;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+    
+    .banner-content .btn-primary {
+        padding: 20px 25px;
+        color: #005FAC;
+        font-size: 20px;
+        background-color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    /* ===================================
+            banner css end
+    =================================== */
+
+    /* ===================================
+            failures css end
+    =================================== */
+
+    .failures {
+        padding: 60px 0;
+    }
+
+    .failures-wrapper {
+        align-items: center;
+        gap: 0;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .failure-left {
+        width: 100%;
+    }
+
+    .failure-left img {
+        width: 100%;
+    }
+
+    .failure-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .failure-title {
+        font-size: 40px;
+        padding-right: 0;
+    }
+
+    .failure-description {
+        padding-right: 0;
+    }
+
+    /* ===================================
+            failures css end
+    =================================== */
+
+    /* ===================================
+            design thinking css start
+    =================================== */
+
+    .design-thinking {
+        margin-bottom: 60px;
+    }
+
+    .design-thinking-wrapper {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .design-thinking-item {
+        text-align: center;
+        padding: 10px;
+        width: 45%;
+    }
+
+    /* ===================================
+            design thinking css end
+    =================================== */
+
+    /* ===================================
+            my plan css start
+    =================================== */
+
+    .plan {
+        margin-bottom: 60px;
+    }
+
+    .my-plans-wrapper {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .my-plans-item {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 45%;
+    }
+
+    /* ===================================
+            my plan css end
+    =================================== */
+
+    /* ===================================
+            positive mind css start
+    =================================== */
+
+    .positive-mindset {
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
+
+    .positive-mind {
+        padding: 60px 35px;
+    }
+
+    .positive-mindset-title {
+        font-size: 22px;
+    }
+
+    .positive-mindset-title {
+        padding-right: 0;
+        font-size: 40px;
+    }
+
+    .positive-mind-btn {
+        padding: 15px 25px;
+        font-size: 18px;
+    }
+
+    /* ===================================
+            positive mind css end
+    =================================== */
+
+
+    /* ===================================
+            footer css start
+    =================================== */
+    .footer-wrapper {
+        padding: 0 20px;
+        gap: 40px;
+    }
+
+    /* ===================================
+            footer css end
+    =================================== */
+
+}
+
+/* small device end */
+
 /* extra small device start */
 
 @media screen and (max-width: 575.98px) {
@@ -5,7 +404,6 @@
     /* ===================================
         navbar css start
     =================================== */
-
 
     .navbar {
         background-color: #014A97;
@@ -254,8 +652,6 @@
     .footer-right {
         width: 100%;
     }
-
-    
 
     /* ===================================
             footer css end
