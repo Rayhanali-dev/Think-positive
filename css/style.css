@@ -42,6 +42,10 @@ ul, ol {
     align-items: center;
 }
 
+.bars {
+    display: none;
+}
+
 .nav-main-menu {
     display: flex;
     gap: 30px;
@@ -360,6 +364,7 @@ ul, ol {
     font-size: 18px;
     border-radius: 10px;
     margin-bottom: 16px;
+    box-sizing: border-box;
 }
 
 .submit-btn {

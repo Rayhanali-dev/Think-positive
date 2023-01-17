@@ -6,6 +6,7 @@
         navbar css start
     =================================== */
 
+
     .navbar {
         background-color: #014A97;
         padding: 20px 0;
@@ -19,17 +20,59 @@
 
     .navbar-wrapper {
         align-items: center;
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     .nav-menu {
         display: none;
     }
 
+    .bars {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .bars span {
+        width: 40px;
+        background-color: #fff;
+        height: 5px;
+        border-radius: 10px;
+    }
+
+    .nav-main-menu {
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: -20px;
+        padding: 20px;
+        opacity: 0;
+        transition: all linear .3s;
+        visibility: hidden;
+    }
+
+    .nav-main-menu .nav-link {
+        color: #000;
+    }
+
+    .bars:hover .nav-main-menu {
+        opacity: 1;
+        right: 0;
+        visibility: visible;
+    }
+
     /* ===================================
             navbar css end
     =================================== */
-
 
     /* ===================================
             banner css start
@@ -43,10 +86,11 @@
 
     .banner-content {
         text-align: center;
+        padding: 0 20px;
     }
 
     .banner-content .banner-title {
-        font-size: 20px;
+        font-size: 40px;
         font-weight: 700;
         color: #fff;
         padding-left: 0;
@@ -70,57 +114,82 @@
         border-radius: 5px;
     }
 
-    
-
-
     /* ===================================
             banner css end
     =================================== */
 
-
     /* ===================================
             failures css end
     =================================== */
 
-    .failures-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 87px;
-        flex-direction: column;
+    .failures {
+        padding: 60px 0;
     }
 
+    .failures-wrapper {
+        align-items: center;
+        gap: 0;
+        flex-direction: column;
+        padding: 0 20px;
+    }
 
+    .failure-left {
+        width: 100%;
+    }
+
+    .failure-left img {
+        width: 100%;
+    }
+
+    .failure-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .failure-title {
+        font-size: 40px;
+        padding-right: 0;
+    }
+
+    .failure-description {
+        padding-right: 0;
+    }
 
     /* ===================================
             failures css end
     =================================== */
-
 
     /* ===================================
             design thinking css start
     =================================== */
 
+    .design-thinking {
+        margin-bottom: 60px;
+    }
+
     .design-thinking-wrapper {
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
+        align-items: center;
     }
 
     /* ===================================
             design thinking css end
     =================================== */
 
-
     /* ===================================
             my plan css start
     =================================== */
 
-    .my-plans-wrapper {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+    .plan {
+        margin-bottom: 60px;
     }
 
+    .my-plans-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
 
     /* ===================================
             my plan css end
@@ -128,12 +197,65 @@
 
 
     /* ===================================
+            positive mind css start
+    =================================== */
+
+    .positive-mindset {
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
+
+    .positive-mind {
+        padding: 30px 10px;
+    }
+
+    .positive-mindset-title {
+        font-size: 22px;
+    }
+
+    .positive-mindset-title {
+        padding-right: 0;
+        font-size: 32px;
+    }
+
+    .positive-mind-btn {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+
+    /* ===================================
+            positive mind css end
+    =================================== */
+
+    /* ===================================
             footer css start
     =================================== */
+
+    .footer {
+        background-color: #000;
+        padding: 60px 0;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+
     .footer-wrapper {
         display: flex;
         flex-direction: column;
+        padding: 0 20px;
+        gap: 60px;
     }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    
 
     /* ===================================
             footer css end
